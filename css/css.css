@@ -1,0 +1,9 @@
+table,
+tr,
+td,
+{
+    border: 5px;
+    border-style: double ;
+    border-color: goldenrod;
+    font-family: Arial, Helvetica, sans-serif;
+}

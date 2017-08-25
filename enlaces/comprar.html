@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pago</title>
+    <link rel="stylesheet" href="../css/css.css" type="text/css">
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td>
+                <img src="../imagenes/logotipo.png" alt="Editorial Médena" style="width:400ox;height:150px">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table class="tabla1">
+
+                    <form action="get" action="compra.html">
+                        <tr>
+                            <td colspan="2">
+                                <center>
+                                    <input type="radio" name="tarjeta" value="visa" /><img src="../imagenes/compra/visa.png" alt="" style="width:66px;height:41px"> &nbsp
+                                    <input type="radio" name="tarjeta" value="mastercard" /><img src="../imagenes/compra/mastercard.png" alt="" style="width:66px;height:41px">
+                                </center>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Titular de la Tarjeta: </td>
+                            <td><input type="text" name="titular"></td>
+                        </tr>
+                        <tr>
+                            <td>N.° de Tarjeta: </td>
+                            <td><input type="text" name="n°de-trajeta"></td>
+                        </tr>
+                        <tr>
+                            <td>Caducidad: </td>
+                            <td><input type="date"></td>
+                        </tr>
+                        <tr>
+                            <td>Códogo de Seguridad: </td>
+                            <td><input type="text" name="CVV2"></td>
+                        </tr>
+                        <tr>
+                            <td>Provincia: </td>
+                            <td>
+                                <select name="provincia" id="">
+                                        <option value="" selected>--Provincia--</option>
+                                        <option value="CABA">Capital Federal</option>
+                                        <option value="otros">Otros :v</option>
+                                    </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Dirección: </td>
+                            <td><input type="text" name="direccion"></td>
+                        </tr>
+                        <tr>
+                            <td>Código Postal: </td>
+                            <td><input type="text" name="codigo-postal"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <center>
+                                    <input type="submit" name="enviar" value="Comprar" href>
+                                </center>
+                            </td>
+                        </tr>
+                    </form>
+
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>

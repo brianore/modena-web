@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Compra</title>
+</head>
+
+<body>
+    <table border="1">
+        <tr>
+            <td>
+                <img src="../imagenes/logotipo.png" alt="Editorial Médena" style="width:800ox;height:300px">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table border="1">
+                    <tr>
+                        <form action="get" action="compra.html">
+                            <td>
+                                <input type="radio" name="tarjeta" value="visa" /><img src="../imagenes/compra/visa.png" alt="" style="width:66px;height:41px"> &nbsp
+                                <input type="radio" name="tarjeta" value="mastercard" /><img src="../imagenes/compra/mastercard.png" alt="" style="width:66px;height:41px">
+                            </td>
+                            <br/> Titular de la Tarjeta: <input type="text" name="titular">
+                            <br/> N.° de Tarjeta: <input type="text" name="n°de-trajeta">
+                            <br/> Caducidad: <input type="date" type={time,month}>
+                            <br/> Códogo de Seguridad: <input type="text" name="CVV2">
+                            <br/> Provincia:
+                            <select name="provincia" id="">
+                        <option value="" selected>--Provincia--</option>
+                        <option value="CABA">Capital Federal</option>
+                        <option value="otros">Otros :v</option>
+                    </select>
+                            <br/> Dirección: <input type="text" name="direccion">
+                            <br/> Código Postal: <input type="text" name="codigo-postal">
+                            <br/><br/>
+                            <input type="submit" name="enviar" value="Comprar">
+                        </form>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
